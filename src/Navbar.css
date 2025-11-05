@@ -1,0 +1,133 @@
+#navbar-main-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border: 2px solid rgb(0, 0, 0, 0.1);
+  color: #3b3a3a;
+  z-index: 1100;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 80%;
+}
+
+.aespa,
+.lesserafim,
+.seventeen,
+.treasure,
+.twice {
+  text-decoration: none;
+  color: #3b3a3a;
+  font-size: 19px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.aespa:hover,
+.lesserafim:hover,
+.seventeen:hover,
+.treasure:hover,
+.twice:hover {
+  color: #a2a2a3;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.cart-btn {
+  background: linear-gradient(to bottom, #ff4267 40%, #ff4b2e 100%);
+  /* background-color: white; */
+  border: none;
+  width: 105px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.heIcon {
+  color: #ffffff;
+  height: 16px;
+  width: 17px;
+  margin-top: -1px;
+}
+
+/* .cart-btn:hover {
+  background: #e78383;
+} */
+
+@media screen and (max-width: 870px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+
+  .nav-link {
+    display: none;
+  }
+  .cart-btn {
+    margin-left: 6%;
+  }
+  .nav-link-mobile {
+    z-index: 1000;
+    position: absolute;
+    display: block;
+    list-style: none;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-top: 22%;
+    padding-bottom: 20%;
+    background-image: linear-gradient(to bottom, #ffffff, #cecece);
+    left: 0;
+    top: 70px;
+    transition: all 0.5s ease-out;
+    width: 89%;
+  }
+
+  .aespa,
+  .lesserafim,
+  .seventeen,
+  .treasure,
+  .twice {
+    color: #3b3a3a;
+    text-align: left;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5 ease;
+  }
+
+  .register {
+    border: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    font-size: 30px;
+    padding: 2%;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    margin-left: 47%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}

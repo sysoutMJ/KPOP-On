@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+#main-artist-main-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: rgb(3, 3, 3);
+}
+
+#main-artist-background {
+  background-color: rgb(3, 3, 3);
+  height: 120%;
+  padding-bottom: 10%;
+}
+
+/* -------------------------------- */
+
+#main-artist-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-artist-content {
+  width: 950px;
+  height: 650px;
+  margin: 15px;
+  margin-top: 100px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+  background: white;
+}
+
+#main-artist-content:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+
+#main-artist-image {
+  width: 950px;
+  height: 650px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+#main-artist-lesserafim {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(0, 0, 0)
+    ),
+    url("./images/lesserafim-main.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 35% 35%;
+  width: 950px;
+  height: 650px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 150%;
+}
+
+#main-artist-aespa {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(0, 0, 0)
+    ),
+    url("./images/aespa-main.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 35% 35%;
+  width: 950px;
+  height: 650px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 150%;
+}
+
+#main-artist-seventeen {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(0, 0, 0)
+    ),
+    url("./images/seventeen-main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 35% 35%;
+  width: 950px;
+  height: 650px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 150%;
+}
+
+#main-artist-twice {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(0, 0, 0)
+    ),
+    url("./images/twice-main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 35% 35%;
+  width: 950px;
+  height: 650px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 150%;
+}
+
+#main-artist-treasure {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(0, 0, 0)
+    ),
+    url("./images/treasure-main.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 35% 35%;
+  width: 950px;
+  height: 650px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  font-family: "Work Sans", sans-serif;
+  font-size: 150%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+#main-artist-group-name-lesserafim {
+  font-size: 50px;
+  padding-top: 55%;
+  font-family: "Work Sans", sans-serif;
+  color: rgb(230, 230, 230);
+}
+@font-face {
+  font-family: "aespa Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("aespa Regular"), url("./aespa_Regular.woff") format("woff");
+}
+#main-artist-group-name-aespa {
+  font-size: 70px;
+  padding-top: 54%;
+  font-family: "aespa Regular";
+  color: rgb(230, 230, 230);
+}
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+#main-artist-group-name-seventeen {
+  font-size: 50px;
+  padding-top: 55%;
+  font-family: "Exo", sans-serif;
+  color: rgb(230, 230, 230);
+}
+
+#main-artist-group-name-twice {
+  font-size: 50px;
+  padding-top: 55%;
+  font-family: "Exo", sans-serif;
+  color: rgb(230, 230, 230);
+}
+
+#main-artist-group-name-treasure {
+  font-size: 50px;
+  padding-top: 55%;
+  font-family: "Exo", sans-serif;
+  color: rgb(230, 230, 230);
+}
+
+/* 12-pro, xr */
+@media (max-width: 1000px) {
+  #main-artist-content {
+    width: 580px;
+    height: 400px;
+  }
+  #main-artist-image {
+    width: 580px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 750px) {
+  #content {
+    width: 100%;
+  }
+  #album-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  #album-gallery #content p {
+    font-size: 1em;
+  }
+}
+
+/* for desktop */
+@media (max-width: 2000px) {
+  #main-artist-content {
+    width: 360px;
+    height: 250px;
+  }
+  #main-artist-lesserafim,
+  #main-artist-aespa,
+  #main-artist-seventeen,
+  #main-artist-twice,
+  #main-artist-treasure {
+    width: 360px;
+    height: 250px;
+    background-position: 50% 50%;
+  }
+  #main-artist-group-name-lesserafim,
+  #main-artist-group-name-aespa,
+  #main-artist-group-name-seventeen,
+  #main-artist-group-name-twice,
+  #main-artist-group-name-treasure {
+    font-size: 40px;
+    padding-top: 60%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgb(20, 20, 20);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  outline: 2px solid rgb(31, 31, 31);
+  outline-offset: -2px;
+  border: 0.1px solid #706a6a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffffff;
+}

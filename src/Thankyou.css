@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+
+#thank-you-main-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+#thank-you-container {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(177, 177, 177);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+#thank-you-header {
+  font-size: 90px;
+  font-family: "Unbounded", cursive;
+  letter-spacing: -5px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+#thank-you-total-price {
+  font-size: 40px;
+
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: -20px;
+}
+
+#thank-you-details {
+  font-size: 23px;
+  margin-top: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+#email-image {
+  width: 64px;
+  height: 64px;
+}
+
+#thank-you-button-container {
+  margin-top: 50px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+#back-button {
+  padding: 25px;
+  width: 200px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  border: none;
+  border-radius: 5px;
+}
+
+#back-button:hover {
+  background-color: rgb(175, 255, 203);
+  transition: 0.5s ease;
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  #thank-you-container {
+    width: 70%;
+    height: auto;
+    margin-bottom: 17px;
+    padding: 10%;
+  }
+  #thank-you-header {
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+  #thank-you-total-price {
+    font-size: 25px;
+  }
+  #thank-you-details {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #navigation-bar-navigation-choices {
+    margin-left: -20px;
+  }
+}
