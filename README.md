@@ -1,5 +1,4 @@
 # KPOP-On
-**Completion Date:** December 2022
 
 A final project created in partial fulfillment of the course Mobile Computing (CS 409).
 
