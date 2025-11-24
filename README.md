@@ -5,4 +5,11 @@ A final project created in partial fulfillment of the course Mobile Computing (C
 
 A K-pop showcase and e-commerce website featuring popular groups, their members, and released albums. The platform also includes an online store for purchasing official merchandise from the showcased artists.
 
+## Contributors
+- Kylene M. Candelaria
+- Christian Paul J. Gelera
+- Marcus Joseph P. Geneston
+- Gabriel Anton M. Gillego
+- Shania Mae P. Ucag
+
 
