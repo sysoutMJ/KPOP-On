@@ -1,3 +1,4 @@
+import React from "react";
 import "./about us.css";
 // import picture from '../src/album.jfif';
 import NavigationBar from "./NavigationBar";

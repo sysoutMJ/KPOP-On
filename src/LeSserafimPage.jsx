@@ -1,3 +1,4 @@
+import React from "react";
 import "./LeSserafimPage.css";
 import NavigationBar from "./NavigationBar";
 const LeSserafimPage = () => {

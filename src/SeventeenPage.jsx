@@ -1,3 +1,4 @@
+import React from "react";
 import "./SeventeenPage.css";
 import NavigationBar from "./NavigationBar";
 const SeventeenPage = () => {

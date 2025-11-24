@@ -1,3 +1,4 @@
+import React from "react";
 import "./MainArtist.css";
 import NavigationBar from "./NavigationBar";
 import { useNavigate } from "react-router-dom";

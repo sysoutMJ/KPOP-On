@@ -1,3 +1,4 @@
+import React from "react";
 import "./TwicePage.css";
 import NavigationBar from "./NavigationBar";
 const TwicePage = () => {

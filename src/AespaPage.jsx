@@ -1,3 +1,4 @@
+import React from "react";
 import "./AespaPage.css";
 import NavigationBar from "./NavigationBar";
 const AespaPage = () => {

@@ -1,3 +1,4 @@
+import React from "react";
 import "./TreasurePage.css";
 import NavigationBar from "./NavigationBar";
 const TreasurePage = () => {
