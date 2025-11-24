@@ -1,0 +1,29 @@
+{
+  "name": "kpop-on!---cs409-project",
+  "version": "1.0.0",
+  "description": "A final project created in partial fulfillment of the course Mobile Computing (CS 409).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sysoutMJ/KPOP-On.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sysoutMJ/KPOP-On/issues"
+  },
+  "homepage": "https://github.com/sysoutMJ/KPOP-On#readme",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vite": "^7.2.4"
+  }
+}
