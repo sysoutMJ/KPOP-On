@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 #thank-you-main-container {
   position: fixed;
@@ -31,7 +33,6 @@
   font-weight: bold;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 #thank-you-total-price {
   font-size: 40px;
 
@@ -52,7 +53,6 @@
 #thank-you-button-container {
   margin-top: 50px;
 }
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 #back-button {
   padding: 25px;

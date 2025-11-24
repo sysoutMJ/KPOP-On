@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
 #main-artist-main-div {
   position: fixed;
   top: 0;
@@ -57,7 +60,6 @@
   display: block;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 #main-artist-lesserafim {
   background-image: linear-gradient(
       to bottom,
@@ -167,7 +169,6 @@
   font-size: 150%;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 #main-artist-group-name-lesserafim {
   font-size: 50px;
   padding-top: 55%;
@@ -186,7 +187,6 @@
   font-family: "aespa Regular";
   color: rgb(230, 230, 230);
 }
-@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
 #main-artist-group-name-seventeen {
   font-size: 50px;
   padding-top: 55%;
