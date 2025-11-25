@@ -1,6 +1,38 @@
 import React from "react";
 import "./SeventeenPage.css";
 import NavigationBar from "./NavigationBar";
+
+import dino from "./images/seventeen_face_the_sun_teaser_1_Dino.jpg"
+import dk from "./images/seventeen_face_the_sun_teaser_1_DK.jpg"
+import hoshi from "./images/seventeen_face_the_sun_teaser_1_Hoshi.jpg"
+import joshua from "./images/seventeen_face_the_sun_teaser_1_Joshua.jpg"
+import jeonghan from "./images/seventeen_face_the_sun_teaser_1_Jeonghan.jpg"
+import jun from "./images/seventeen_face_the_sun_teaser_1_Jun.jpg"
+import mingyu from "./images/seventeen_face_the_sun_teaser_1_Mingyu.jpg"
+import scoups from "./images/seventeen_face_the_sun_teaser_1_Scoups.jpg"
+import seungkwan from "./images/seventeen_face_the_sun_teaser_1_Seungkwan.jpg"
+import the8 from "./images/seventeen_face_the_sun_teaser_1_The8.jpg"
+import vernon from "./images/seventeen_face_the_sun_teaser_1_Vernon.jpg"
+import wonwoo from "./images/seventeen_face_the_sun_teaser_1_Wonwoo.jpg"
+import woozi from "./images/seventeen_face_the_sun_teaser_1_Woozi.jpg"
+import seventeenCarat from "./images/17-Carat.jfif"
+import boysBe from "./images/Boys-Be.png"
+import loveLetter from "./images/Love-Letter.png"
+import goingSeventeen from "./images/Going-Seventeen.png"
+import alOne from "./images/Al1.png"
+import teenAge from "./images/Teen-Age.png"
+import youMakeMyDay from "./images/You-Make-My-Day.jpeg"
+import youMadeMyDawn from "./images/you-made-my-dawn.webp"
+import anOde from "./images/An-Ode.png"
+import hengGarae from "./images/heng-garae.jfif"
+import yourChoice from "./images/your-choice.jfif"
+import attacca from "./images/attacca.webp"
+import darling from "./images/darling.webp"
+import faceTheSun from "./images/face-the-sun.jfif"
+import hit from "./images/hit.jpg"
+import notAlone from "./images/not-alone.webp"
+import worldSVT from "./images/world-svt.jfif"
+
 const SeventeenPage = () => {
   return (
     <div id="seventeen-main-div">
@@ -17,7 +49,7 @@ const SeventeenPage = () => {
         <div id="seventeen-members-gallery">
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Dino.jpg")}
+              src={dino}
               id="seventeen-members-image"
               alt="dino"
             />
@@ -26,7 +58,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_DK.jpg")}
+              src={dk}
               id="seventeen-members-image"
               alt="dk"
             />
@@ -35,7 +67,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Hoshi.jpg")}
+              src={hoshi}
               id="seventeen-members-image"
               alt="hoshi"
             />
@@ -44,7 +76,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Jeonghan.jpg")}
+              src={jeonghan}
               id="seventeen-members-image"
               alt="jeonghan"
             />
@@ -53,7 +85,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Joshua.jpg")}
+              src={joshua}
               id="seventeen-members-image"
               alt="joshua"
             />
@@ -62,7 +94,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Jun.jpg")}
+              src={jun}
               id="seventeen-members-image"
               alt="jun"
             />
@@ -71,7 +103,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Mingyu.jpg")}
+              src={mingyu}
               id="seventeen-members-image"
               alt="mingyu"
             />
@@ -80,7 +112,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Scoups.jpg")}
+              src={scoups}
               id="seventeen-members-image"
               alt="scoups"
             />
@@ -89,7 +121,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Seungkwan.jpg")}
+              src={seungkwan}
               id="seventeen-members-image"
               alt="seungkwan"
             />
@@ -98,7 +130,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_The8.jpg")}
+              src={the8}
               id="seventeen-members-image"
               alt="the8"
             />
@@ -107,7 +139,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Vernon.jpg")}
+              src={vernon}
               id="seventeen-members-image"
               alt="vernon"
             />
@@ -116,7 +148,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Wonwoo.jpg")}
+              src={wonwoo}
               id="seventeen-members-image"
               alt="wonwoo"
             />
@@ -125,7 +157,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-members-content">
             <img
-              src={require("./images/seventeen_face_the_sun_teaser_1_Woozi.jpg")}
+              src={woozi}
               id="seventeen-members-image"
               alt="woozi"
             />
@@ -133,19 +165,11 @@ const SeventeenPage = () => {
           </div>
         </div>
 
-        {/* 
-        
-        
-        
-        
-        
-        */}
-
         <div id="seventeen-artist-sub-title">ALBUMS</div>
         <div id="seventeen-album-gallery">
           <div id="seventeen-album-content">
             <img
-              src={require("./images/17-Carat.jfif")}
+              src={seventeenCarat}
               id="seventeen-album-image"
               alt="17carat"
             />
@@ -153,7 +177,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/Boys-Be.png")}
+              src={boysBe}
               id="seventeen-album-image"
               alt="boysbe"
             />
@@ -161,7 +185,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/Love-Letter.png")}
+              src={loveLetter}
               id="seventeen-album-image"
               alt="loveletter"
             />
@@ -169,7 +193,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/Going-Seventeen.png")}
+              src={goingSeventeen}
               id="seventeen-album-image"
               alt="goingseventeen"
             />
@@ -177,16 +201,15 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/Al1.png")}
+              src={alOne}
               id="seventeen-album-image"
-              alt=""
-              about="all1"
+              alt="all1"
             />
           </div>
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/Teen-Age.png")}
+              src={teenAge}
               id="seventeen-album-image"
               alt="teenage"
             />
@@ -194,7 +217,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/You-Make-My-Day.jpeg")}
+              src={youMakeMyDay}
               id="seventeen-album-image"
               alt="youmakemyday"
             />
@@ -202,7 +225,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/you-made-my-dawn.webp")}
+              src={youMadeMyDawn}
               id="seventeen-album-image"
               alt="youmademydawn"
             />
@@ -210,7 +233,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/An-Ode.png")}
+              src={anOde}
               id="seventeen-album-image"
               alt="anode"
             />
@@ -218,7 +241,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/heng-garae.jfif")}
+              src={hengGarae}
               id="seventeen-album-image"
               alt="henggarae"
             />
@@ -226,7 +249,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/your-choice.jfif")}
+              src={yourChoice}
               id="seventeen-album-image"
               alt="yourchoice"
             />
@@ -234,7 +257,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/attacca.webp")}
+              src={attacca}
               id="seventeen-album-image"
               alt="attacca"
             />
@@ -242,7 +265,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/darling.webp")}
+              src={darling}
               id="seventeen-album-image"
               alt="darling"
             />
@@ -250,23 +273,18 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/face-the-sun.jfif")}
+              src={faceTheSun}
               id="seventeen-album-image"
               alt="facethesun"
             />
           </div>
         </div>
 
-        {/* 
-        
-        
-        */}
-
         <div id="seventeen-artist-sub-title">SINGLE's</div>
         <div id="seventeen-singles-gallery">
           <div id="seventeen-album-content">
             <img
-              src={require("./images/hit.jpg")}
+              src={hit}
               id="seventeen-album-image"
               alt="hit"
             />
@@ -274,7 +292,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/not-alone.webp")}
+              src={notAlone}
               id="seventeen-album-image"
               alt="notalone"
             />
@@ -282,7 +300,7 @@ const SeventeenPage = () => {
 
           <div id="seventeen-album-content">
             <img
-              src={require("./images/world-svt.jfif")}
+              src={worldSVT}
               id="seventeen-album-image"
               alt="worldsvt"
             />

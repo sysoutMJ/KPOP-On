@@ -1,6 +1,16 @@
 import React from "react";
 import "./LeSserafimPage.css";
 import NavigationBar from "./NavigationBar";
+
+import kimGaram from "./images/kim-garam.jfif"
+import sakura from "./images/sakura.jfif"
+import eunchae from "./images/eunchae.jfif"
+import chaewon from "./images/chaewon.jfif"
+import kazuha from "./images/kazuha.jfif"
+import yunjin from "./images/yunjin.jfif"
+import antigragile from "./images/antifragile.png"
+import fearless from "./images/fearless.png"
+
 const LeSserafimPage = () => {
   return (
     <div id="lesserafim-main-div">
@@ -19,7 +29,7 @@ const LeSserafimPage = () => {
         <div id="lesserafim-members-gallery">
           <div id="lesserafim-members-content">
             <img
-              src={require("./images/kim-garam.jfif")}
+              src={kimGaram}
               id="lesserafim-members-image"
               alt="garam"
             />
@@ -28,7 +38,7 @@ const LeSserafimPage = () => {
 
           <div id="lesserafim-members-content">
             <img
-              src={require("./images/sakura.jfif")}
+              src={sakura}
               id="lesserafim-members-image"
               alt="sakura"
             />
@@ -37,7 +47,7 @@ const LeSserafimPage = () => {
 
           <div id="lesserafim-members-content">
             <img
-              src={require("./images/eunchae.jfif")}
+              src={eunchae}
               id="lesserafim-members-image"
               alt="eunchae"
             />
@@ -46,7 +56,7 @@ const LeSserafimPage = () => {
 
           <div id="lesserafim-members-content">
             <img
-              src={require("./images/chaewon.jfif")}
+              src={chaewon}
               id="lesserafim-members-image"
               alt="chaewon"
             />
@@ -55,7 +65,7 @@ const LeSserafimPage = () => {
 
           <div id="lesserafim-members-content">
             <img
-              src={require("./images/kazuha.jfif")}
+              src={kazuha}
               id="lesserafim-members-image"
               alt="kazuha"
             />
@@ -64,7 +74,7 @@ const LeSserafimPage = () => {
 
           <div id="lesserafim-members-content">
             <img
-              src={require("./images/yunjin.jfif")}
+              src={yunjin}
               id="lesserafim-members-image"
               alt="yunjin"
             />
@@ -76,7 +86,7 @@ const LeSserafimPage = () => {
         <div id="lesserafim-album-gallery">
           <div id="lesserafim-album-content">
             <img
-              src={require("./images/antifragile.png")}
+              src={antigragile}
               id="lesserafim-album-image"
               alt="antifragile"
             />
@@ -84,7 +94,7 @@ const LeSserafimPage = () => {
 
           <div id="lesserafim-album-content">
             <img
-              src={require("./images/fearless.png")}
+              src={fearless}
               id="lesserafim-album-image"
               alt="fearless"
             />

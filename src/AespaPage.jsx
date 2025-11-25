@@ -1,6 +1,18 @@
 import React from "react";
 import "./AespaPage.css";
 import NavigationBar from "./NavigationBar";
+
+import karina from "./images/karina.jpg"
+import giselle from "./images/giselle.jpg"
+import winter from "./images/winter.jpg"
+import ningning from"./images/ningning.jpg"
+import savage from "./images/savage.png"
+import girls from "./images/girls.webp"
+import blackMamba from "./images/black-mamba.png"
+import forever from "./images/forever.webp"
+import nextLevel from "./images/next-level.jpg"
+import dreamsComeTrue from "./images/dreams-come-true.jpg"
+
 const AespaPage = () => {
   return (
     <div id="aespa-main-div">
@@ -18,7 +30,7 @@ const AespaPage = () => {
         <div id="aespa-members-gallery">
           <div id="aespa-members-content">
             <img
-              src={require("./images/karina.jpg")}
+              src={karina}
               id="aespa-members-image"
               alt="karina"
             />
@@ -28,7 +40,7 @@ const AespaPage = () => {
 
           <div id="aespa-members-content">
             <img
-              src={require("./images/giselle.jpg")}
+              src={giselle}
               id="aespa-members-image"
               alt="giselle"
             />
@@ -38,7 +50,7 @@ const AespaPage = () => {
 
           <div id="aespa-members-content">
             <img
-              src={require("./images/winter.jpg")}
+              src={winter}
               id="aespa-members-image"
               alt="winter"
             />
@@ -48,7 +60,7 @@ const AespaPage = () => {
 
           <div id="aespa-members-content">
             <img
-              src={require("./images/ningning.jpg")}
+              src={ningning}
               id="aespa-members-image"
               alt="ningning"
             />
@@ -61,7 +73,7 @@ const AespaPage = () => {
         <div id="aespa-album-gallery">
           <div id="aespa-album-content">
             <img
-              src={require("./images/savage.png")}
+              src={savage}
               id="aespa-album-image"
               alt="savage"
             />
@@ -69,7 +81,7 @@ const AespaPage = () => {
 
           <div id="aespa-album-content">
             <img
-              src={require("./images/girls.webp")}
+              src={girls}
               id="aespa-album-image"
               alt="girls"
             />
@@ -80,7 +92,7 @@ const AespaPage = () => {
         <div id="aespa-singles-gallery">
           <div id="aespa-album-content">
             <img
-              src={require("./images/black-mamba.png")}
+              src={blackMamba}
               id="aespa-album-image"
               alt="blackmamba"
             />
@@ -88,7 +100,7 @@ const AespaPage = () => {
 
           <div id="aespa-album-content">
             <img
-              src={require("./images/forever.webp")}
+              src={forever}
               id="aespa-album-image"
               alt="forever"
             />
@@ -96,7 +108,7 @@ const AespaPage = () => {
 
           <div id="aespa-album-content">
             <img
-              src={require("./images/next-level.jpg")}
+              src={nextLevel}
               id="aespa-album-image"
               alt="next level"
             />
@@ -104,7 +116,7 @@ const AespaPage = () => {
 
           <div id="aespa-album-content">
             <img
-              src={require("./images/dreams-come-true.jpg")}
+              src={dreamsComeTrue}
               id="aespa-album-image"
               alt="dreamscometrue"
             />

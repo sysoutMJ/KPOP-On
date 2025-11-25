@@ -1,6 +1,28 @@
 import React from "react";
 import "./TreasurePage.css";
 import NavigationBar from "./NavigationBar";
+
+import doyoung from "./images/doyoung.jpeg"
+import choi from "./images/choi.jpeg"
+import jeongwoo from "./images/jeongwoo.jpeg"
+import yedam from "./images/yedam.jpeg"
+import junghwan from "./images/junghwan.jpeg"
+import asahi from "./images/asahi.jpeg"
+import yoshi from "./images/yoshi.jpeg"
+import jaehyuk from "./images/jaehyuk.jpeg"
+import junkyu from "./images/junkyu.jpeg"
+import jihoon from "./images/jihoon.jpeg"
+import choiHyunSuk from "./images/choi hyun suk.jpeg"
+import haruto from "./images/haruto.jpeg"
+import goingCrazy from "./images/going-crazy.jpg"
+import firstStep from "./images/first-step.jpg"
+import firstStepChapterTwo from "./images/first-step-chapter-two.jpg"
+import firstStepChapterThree from "./images/first-step-chapter-three.png"
+import firstStepTreasureEffect from "./images/first-step-treasure-effect.png"
+import secondStep from "./images/second-step.webp"
+import hello from "./images/hello.jpg"
+import beautiful from "./images/beautiful.png"
+
 const TreasurePage = () => {
   return (
     <div id="treasure-main-div">
@@ -17,7 +39,7 @@ const TreasurePage = () => {
         <div id="treasure-members-gallery">
           <div id="treasure-members-content">
             <img
-              src={require("./images/doyoung.jpeg")}
+              src= {doyoung}
               id="treasure-members-image"
               alt="doyoung"
             />
@@ -26,7 +48,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/choi.jpeg")}
+              src= {choi}
               id="treasure-members-image"
               alt="choi"
             />
@@ -35,7 +57,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/jeongwoo.jpeg")}
+              src= {jeongwoo}
               id="treasure-members-image"
               alt="jeongwoo"
             />
@@ -44,7 +66,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/yedam.jpeg")}
+              src= {yedam}
               id="treasure-members-image"
               alt="yedam"
             />
@@ -53,7 +75,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/junghwan.jpeg")}
+              src= {junghwan}
               id="treasure-members-image"
               alt="junghwan"
             />
@@ -62,7 +84,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/asahi.jpeg")}
+              src= {asahi}
               id="treasure-members-image"
               alt="asahi"
             />
@@ -71,7 +93,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/yoshi.jpeg")}
+              src= {yoshi}
               id="treasure-members-image"
               alt="yoshi"
             />
@@ -80,7 +102,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/jaehyuk.jpeg")}
+              src= {jaehyuk}
               id="treasure-members-image"
               alt="jaehyuk"
             />
@@ -89,7 +111,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/junkyu.jpeg")}
+              src= {junkyu}
               id="treasure-members-image"
               alt="junkyu"
             />
@@ -98,7 +120,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/jihoon.jpeg")}
+              src= {jihoon}
               id="treasure-members-image"
               alt="jihoon"
             />
@@ -107,7 +129,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/choi hyun suk.jpeg")}
+              src= {choiHyunSuk}
               id="treasure-members-image"
               alt="choihyunsuk"
             />
@@ -116,7 +138,7 @@ const TreasurePage = () => {
 
           <div id="treasure-members-content">
             <img
-              src={require("./images/haruto.jpeg")}
+              src= {haruto}
               id="treasure-members-image"
               alt="haruto"
             />
@@ -127,7 +149,7 @@ const TreasurePage = () => {
         <div id="treasure-album-gallery">
           <div id="treasure-album-content">
             <img
-              src={require("./images/going-crazy.jpg")}
+              src= {goingCrazy}
               id="treasure-album-image"
               alt="goingcrazy"
             />
@@ -135,7 +157,7 @@ const TreasurePage = () => {
 
           <div id="treasure-album-content">
             <img
-              src={require("./images/first-step.jpg")}
+              src= {firstStep}
               id="treasure-album-image"
               alt="firststep"
             />
@@ -143,7 +165,7 @@ const TreasurePage = () => {
 
           <div id="treasure-album-content">
             <img
-              src={require("./images/first-step-chapter-two.jpg")}
+              src= {firstStepChapterTwo}
               id="treasure-album-image"
               alt="firststepchaptertwo"
             />
@@ -151,7 +173,7 @@ const TreasurePage = () => {
 
           <div id="treasure-album-content">
             <img
-              src={require("./images/first-step-chapter-three.png")}
+              src= {firstStepChapterThree}
               id="treasure-album-image"
               alt="firststepchapterthree"
             />
@@ -159,7 +181,7 @@ const TreasurePage = () => {
 
           <div id="treasure-album-content">
             <img
-              src={require("./images/first-step-treasure-effect.png")}
+              src= {firstStepTreasureEffect}
               id="treasure-album-image"
               alt="firststeptreasureeffect"
             />
@@ -167,7 +189,7 @@ const TreasurePage = () => {
 
           <div id="treasure-album-content">
             <img
-              src={require("./images/second-step.webp")}
+              src= {secondStep}
               id="treasure-album-image"
               alt="secondstep"
             />
@@ -175,7 +197,7 @@ const TreasurePage = () => {
 
           <div id="treasure-album-content">
             <img
-              src={require("./images/hello.jpg")}
+              src= {hello}
               id="treasure-album-image"
               alt="hello"
             />
@@ -185,7 +207,7 @@ const TreasurePage = () => {
         <div id="treasure-singles-gallery">
           <div id="treasure-album-content">
             <img
-              src={require("./images/beautiful.png")}
+              src= {beautiful}
               id="treasure-album-image"
               alt="beautiful"
             />
