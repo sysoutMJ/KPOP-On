@@ -12,4 +12,4 @@ This branch contains the **current version** of the project, including updates, 
 
 ## Old Version
 
-If you want to see the **original project** as submitted during the course, please check the [`old-version` branch](link-to-old-version-branch). This branch preserves the original code and structure from December 2022.
+If you want to see the **original project** as submitted during the course, please check the [`old-version` branch](https://github.com/sysoutMJ/KPOP-On/tree/old-version). This branch preserves the original code and structure from December 2022.
