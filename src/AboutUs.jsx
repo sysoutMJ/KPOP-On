@@ -2,6 +2,7 @@ import React from "react";
 import "./about us.css";
 // import picture from '../src/album.jfif';
 import NavigationBar from "./NavigationBar";
+import AboutUsAlbumImage from "./images/album.jpg";
 
 const AboutUs = () => {
   return (
@@ -27,7 +28,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div class="about-us-image-section">
-          <img src={require("./images/album.jpg")} alt="" />
+          <img src={AboutUsAlbumImage} alt="" />
         </div>
       </div>
     </div>
