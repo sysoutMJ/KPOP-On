@@ -1,0 +1,45 @@
+{
+    "Lesserafim":{
+        "backgroundImagePath": "/images/lesserafim.jpg",
+        "members":[
+            {
+                "name": "Sakura Miyawaki",
+                "imagePath": "/images/sakura.jfif",
+                "altValue": "sakura_image"
+            },
+            {
+                "name": "Yunjin",
+                "imagePath": "/images/yunjin.jfif",
+                "altValue": "yunjin_image"
+            },
+            {
+                "name": "Chaewon",
+                "imagePath": "/images/chaewon.jfif",
+                "altValue": "chaewon_image"
+            },
+            {
+                "name": "Eunchae",
+                "imagePath": "/images/eunchae.jfif",
+                "altValue": "eunchae_image"
+            },
+            {
+                "name": "Kazuha",
+                "imagePath": "/images/kazuha.jfif",
+                "altValue": "kazuha_image"
+            }
+        ],
+        "albums": [
+            {
+                "albumName": "Fearless",
+                "albumImagePath": "/images/fearless.png",
+                "altValue": "fearless_album_image"
+            },
+            {
+                "albumName": "Antifragile",
+                "albumImagePath": "/images/antifragile.png",
+                "altValue": "antifragile_album_image"
+
+            }
+        ]
+    }
+}
