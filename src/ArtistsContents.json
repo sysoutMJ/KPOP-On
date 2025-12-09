@@ -51,14 +51,505 @@
                     "albumName": "Antifragile",
                     "albumImagePath": "/images/antifragile.png",
                     "altValue": "antifragile_album_image"
-
                 }
         }
     },
-    "aespa": {
-        "backgroundImagePath": "/images/lesserafim.jpg",
-        "members": [
+    "Aespa": {
+        "backgroundImagePath": "/images/Aespa.jpg",
+        "members": {
+            "Yoo Ji-min": {
+                "name": "Yoo Ji-min",
+                "imagePath": "/images/karina.jpg",
+                "altValue": "yoo_ji_min_image"
+            },
+            "Aeri Uchinaga": {
+                "name": "Aeri Uchinaga",
+                "imagePath": "/images/giselle.jpg",
+                "altValue": "aeri_uchinaga_image"
 
-        ]
+            },
+            "Kim Min-Jeong": {
+                "name": "Kim Min-Jeong",
+                "imagePath": "/images/winter.jpg",
+                "altValue": "kim_min_jeong_image"
+            },
+            "Ning Yi Zhuo": {
+                "name": "Ning Yi Zhuo",
+                "imagePath": "/images/ningning.jpg",
+                "altValue": "ning_yi_zhuo_image"
+            }
+        },
+        "albums": {
+            "Savage": {
+                "albumName": "Savage",
+                "albumImagePath": "/images/savage.png",
+                "altValue": "savage_album_image"
+            },
+            "Girls": {
+                "albumName": "Girls",
+                "albumImagePath": "/images/girls.webp",
+                "altValue": "girls_album_image"        
+            }
+        },
+        "singles": {
+            "Black Mamba": {
+                "singleName": "Black Mamba",
+                "singleImagePath": "/images/black-mamba.png",
+                "singleAltValue": "black_mamba_singles_image"
+            },
+            "Forever": {
+                "singleName": "Forever",
+                "singleImagePath": "/images/forever.webp",
+                "singleAltValue": "forever_singles_image"
+            },
+            "Dreams Come True": {
+                "singleName": "Dreams Come True",
+                "singleImagePath": "/images/dreams-come-true.jpg",
+                "singleAltValue": "dreams_come_true_singles_image"
+            },
+            "Next Level": {
+                "singleName": "Next Level",
+                "singleImagePath": "/images/next-level.jpg",
+                "singleAltValue": "next_level_singles_image"
+            }
+        }
+    },
+    "Seventeen": {
+        "backgroundImagePath": "/images/seventeen.webp",
+        "members": {
+            "Lee Chan": {
+                "name": "Lee Chan",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Dino.jpg",
+                "altValue": "lee_chan_image"
+            },
+            "Lee Seok-min":  {
+                "name": "Lee Seok-min",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_DK.jpg",
+                "altValue": "lee_seok_min_image"
+            },
+            "Kwon Soon-young": {
+                "name": "Kwon Soon-young",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Hoshi.jpg",
+                "altValue": "kwon_soon_young_image"
+            },
+            "Yoon Jeonghan": {
+                "name": "Yoon Jeonghan",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Jeonghan.jpg",
+                "altValue": "yeon_jeonghan_image"
+            },
+            "Joshua Hong": {
+                "name": "Joshua Hong",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Joshua.jpg",
+                "altValue": "joshua_hong_image"
+            },
+            "Wen Junhui": {
+                "name": "Wen Junhui",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Jun.jpg",
+                "altValue": "weng_junhui_image"
+            },
+            "Kim Mingyu": {
+                "name": "Kim Mingyu",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Mingyu.jpg",
+                "altValue": "kim_mingyu_image"
+            },
+            "Choi Seung Cheol": {
+                "name": "Choi Seung Cheol",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Scoups.jpg",
+                "altValue": "choi_seung_cheol_image"
+            },
+            "Boo Seung-kwan": {
+                "name": "Boo Seung-kwan",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Seungkwan.jpg",
+                "altValue": "choi_seung_cheol_image"
+            },
+            "Xu Minghao": {
+                "name": "Xu Minghao",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_The8.jpg",
+                "altValue": "xu_minghao_image"
+            },
+            "Hansol Vernon Chew": {
+                "name": "Hansol Vernon Chew",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Vernon.jpg",
+                "altValue": "hansol_vernon_chew_image"
+            },
+            "Jeon Won-woo": {
+                "name": "Jeon Won-woo",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Wonwoo.jpg",
+                "altValue": "jeon_won_woo_image"
+            },
+            "Lee Ji-hoon": {
+                "name": "Lee Ji-hoon",
+                "imagePath": "/images/seventeen_face_the_sun_teaser_1_Woozi.jpg",
+                "altValue": "jeon_won_woo_image"
+            }
+        },
+        "albums": {
+            "17 Carat": {
+                "albumName": "17 Carat",
+                "albumImagePath": "/images/17-Carat.jfif",
+                "altValue": "17_carat_album_image"
+            },
+            "Boys Be": {
+                "albumName": "Boys Be",
+                "albumImagePath": "/images/Boys-Be.png",
+                "altValue": "boys_be_album_image"
+            },
+            "Love Letter": {
+                "albumName": "Love Letter",
+                "albumImagePath": "/images/Love-Letter.png",
+                "altValue": "love_letter_album_image"
+            },
+            "Going Seventeen": {
+                "albumName": "Going Seventeen",
+                "albumImagePath": "/images/Going-Seventeen.png",
+                "altValue": "going_seventeen_album_image"
+            },
+            "Al 1": {
+                "albumName": "Al 1",
+                "albumImagePath": "/images/Al1.png",
+                "altValue": "al_1_album_image"
+            },
+            "Teen Age": {
+                "albumName": "Teen Age",
+                "albumImagePath": "/images/Teen-Age.png",
+                "altValue": "teen_age_album_image"
+            },
+            "You Make My Day": {
+                "albumName": "You Make My Day",
+                "albumImagePath": "/images/You-Make-My-Day.jpeg",
+                "altValue": "you_make_my_day_album_image"
+            },
+            "You Made My Dawn": {
+                "albumName": "You Make My Dawn",
+                "albumImagePath": "/images/you-made-my-dawn.webp",
+                "altValue": "you_make_my_dawn_album_image"
+            },
+            "An Ode": {
+                "albumName": "An Ode",
+                "albumImagePath": "/images/An-Ode.png",
+                "altValue": "an_ode_album_image"
+            },
+            "Henggarae": {
+                "albumName": "Henggarae",
+                "albumImagePath": "/images/heng-garae.jfif",
+                "altValue": "henggarae_album_image"
+            },
+            "Your Choice": {
+                "albumName": "Your Choice",
+                "albumImagePath": "/images/your-choice.jfif",
+                "altValue": "your_choice_album_image"
+            },
+            "Attaca": {
+                "albumName": "Attaca",
+                "albumImagePath": "/images/attacca.webp",
+                "altValue": "attaca_album_image"
+            },
+            "Darling": {
+                "albumName": "Darling",
+                "albumImagePath": "/images/attacca.webp",
+                "altValue": "darling_album_image"
+            },
+            "Face The Sun": {
+                "albumName": "Face The Sun",
+                "albumImagePath": "/images/face-the-sun.jfif",
+                "altValue": "face_the_sun_album_image"
+            }
+        },
+        "singles": {
+            "Hit": {
+                "singleName": "Hit",
+                "singleImagePath": "/images/hit.jpg",
+                "singleAltValue": "hit_singles_image"
+            },
+            "Not Alone": {
+                "singleName": "Not Alone",
+                "singleImagePath": "/images/not-alone.webp",
+                "singleAltValue": "not_alone_singles_image"
+            },
+            "World SVT": {
+                "singleName": "World SVT",
+                "singleImagePath": "/images/world-svt.jfif",
+                "singleAltValue": "world_svt_singles_image"
+            }
+        }
+    },
+    "Twice": {
+        "backgroundImagePath": "/images/twice_formula_of_love_concept_all_group_4.jpg",
+        "members": {
+            "Son Chae-young": {
+                "name": "Son Chae-young",
+                "imagePath": "/images/twice_formula_of_love_concept_chaeyoung_4.jpg",
+                "altValue": "son_chae_young_image"
+            },
+            "Kim Da Hyun": {
+                "name": "Kim Da Hyun",
+                "imagePath": "/images/twice_formula_of_love_concept_dahyun_4.jpg",
+                "altValue": "kim_da_hyun_image"
+            },
+            "Yoo Jeong-yeon": {
+                "name": "Yoo Jeong-yeon",
+                "imagePath": "/images/twice_formula_of_love_concept_jeongyeon_4.jpg",
+                "altValue": "yoo_jeong_yeon_image"
+            },
+            "Park Jihyo": {
+                "name": "Park Jihyo",
+                "imagePath": "/images/twice_formula_of_love_concept_jihyo_4.jpg",
+                "altValue": "park_jihyo_image"
+            },
+            "Mina Miyoi": {
+                "name": "Mina Miyoi",
+                "imagePath": "/images/twice_formula_of_love_concept_mina_4.jpg",
+                "altValue": "mina_miyoi_image"
+            },
+            "Momo Hirai": {
+                "name": "Momo Hirai",
+                "imagePath": "/images/twice_formula_of_love_concept_momo_4.jpg",
+                "altValue": "momo_hirai_image"
+            },
+            "Im Na-yeon": {
+                "name": "Im Na-yeon",
+                "imagePath": "/images/twice_formula_of_love_concept_nayeon_4.jpg",
+                "altValue": "im_nayeon_image"
+            },
+            "Sana Minatozaki": {
+                "name": "Sana Minatozaki",
+                "imagePath": "/images/twice_formula_of_love_concept_sana_4.jpg",
+                "altValue": "im_nayeon_image"
+            },
+            "Chou Tzu-yu": {
+                "name": "Chou Tzu-yu",
+                "imagePath": "/images/twice_formula_of_love_concept_tzuyu_4.jpg",
+                "altValue": "cho_tzuyu_image"
+            }
+
+        },
+        "albums": {
+            "Twice The Story Begins": {
+                "albumName": "Twice The Story Begins",
+                "albumImagePath": "/images/twice-the-story-begins.webp",
+                "altValue": "twice_the_story_begins_album_image"
+            },
+            "Page Two": {
+                "albumName": "Page Two",
+                "albumImagePath": "/images/Page-Two.jpg",
+                "altValue": "page_two_album_image"
+            },
+            "Twice Coaster Lane 1": {
+                "albumName": "Twice Coaster Lane 1",
+                "albumImagePath": "/images/TWICEcoaster-Lane-1.jpg",
+                "altValue": "twice_coaster_lane_1_album_image"
+            },
+            "Twice Coaster Lane 2": {
+                "albumName": "Twice Coaster Lane 2",
+                "albumImagePath": "/images/TWICEcoaster-Lane-2.jpg",
+                "altValue": "twice_coaster_lane_1_album_image"
+            },
+            "Twice What's Twice": {
+                "albumName": "Twice What's Twice",
+                "albumImagePath": "/images/TWICE_Whas_TWICE.webp",
+                "altValue": "twice_whats_twice_album_image"
+            },
+            "Signal": {
+                "albumName": "Signal",
+                "albumImagePath": "/images/Signal.jpg",
+                "altValue": "signal_album_image"
+            },
+            "Twicetagram": {
+                "albumName": "Twicteragram",
+                "albumImagePath": "/images/twicetagram.jpg",
+                "altValue": "twicetagram_album_image"
+            },
+            "Merry Happy": {
+                "albumName": "Merry Happy",
+                "albumImagePath": "/images/Merry-Happy.jpg",
+                "altValue": "merry_happy_album_image"
+            },
+            "What is Love": {
+                "albumName": "What is Love",
+                "albumImagePath": "/images/What-is-Love.jpg",
+                "altValue": "what_is_love_album_image"
+            },
+            "Summer Nights": {
+                "albumName": "Summer Nights",
+                "albumImagePath": "/images/Summer-Nights.jpg",
+                "altValue": "summer_nights_album_image"
+            },
+            "Yes or Yes": {
+                "albumName": "Yes or Yes",
+                "albumImagePath": "/images/YES-or-YES.jpg",
+                "altValue": "yes_or_yes_album_image"
+            },
+            "The Year of Yes": {
+                "albumName": "The Year of Yes",
+                "albumImagePath": "/images/The-Year-of-Yes.jpg",
+                "altValue": "the_year_of_yes_album_image"
+            },
+            "Fancy You": {
+                "albumName": "Fancy You",
+                "albumImagePath": "/images/Fancy-You.jpg",
+                "altValue": "fancy_you_album_image"
+            },
+            "Feel Special": {
+                "albumName": "Feel Special",
+                "albumImagePath": "/images/Feel-Special.jpg",
+                "altValue": "feel_special_album_image"
+            },
+            "More and More": {
+                "albumName": "More and More",
+                "albumImagePath": "/images/More-and-More.jpeg",
+                "altValue": "more_and_more_album_image"
+            },
+            "Eyes Wide Open": {
+                "albumName": "Eyes Wide Open",
+                "albumImagePath": "/images/Eyes-Wide-Open.webp",
+                "altValue": "eyes_wide_open_album_image"
+            },
+            "Taste of Love": {
+                "albumName": "Taste of Love",
+                "albumImagePath": "/images/Taste-Of-Love.jpg",
+                "altValue": "taste_of_love_album_image"
+            },
+            "Formula of Love": {
+                "albumName": "Formula of Love",
+                "albumImagePath": "/images/Formula-of-love-Twice-Album.jpg",
+                "altValue": "formula_of_love_album_image"
+            },
+            "Between 1 and 2": {
+                "albumName": "Between One and Two",
+                "albumImagePath": "/images/Between-1-and-2.png",
+                "altValue": "formula_of_love_album_image"
+            }
+        },
+        "singles": {
+            "More and More English": {
+                "singleName": "More and More English",
+                "singleImagePath": "/images/More-and-More-English.jpg",
+                "singleAltValue": "more_and_more_singles_image"
+            },
+            "I Can't Stop Me": {
+                "singleName": "I Can't Stop Me",
+                "singleImagePath": "/images/I-Cant_Stop-Me-English.png",
+                "singleAltValue": "i_cant_stop_me_singles_image"
+            },
+            "Cry for Me": {
+                "singleName": "Cry for Me",
+                "singleImagePath": "/images/Cry_for_Me.png",
+                "singleAltValue": "cry_for_me_singles_image"
+            },
+            "The Feels": {
+                "singleName": "The Feels",
+                "singleImagePath": "/images/The-Feels.jpg",
+                "singleAltValue": "the_feels_singles_image"
+            }
+        }
+    },
+    "Treasure": {
+        "backgroundImagePath": "/images/treasure.jfif",
+        "members": {
+            "Kim Doyoung": {
+                "name": "Kim Doyoung",
+                "imagePath": "/images/doyoung.jpeg",
+                "altValue": "kim_doyoung_image"
+            },
+            "Takata Mashiho": {
+                "name": "Kim Doyoung",
+                "imagePath": "/images/choi.jpeg",
+                "altValue": "takata_mashiho_image"
+            },
+            "Park Jeongwoo": {
+                "name": "Park Jeongwoo",
+                "imagePath": "/images/jeongwoo.jpeg",
+                "altValue": "park_jeongwoo_image"
+            },
+            "Bang Yedam": {
+                "name": "Bang Yedam",
+                "imagePath": "/images/yedam.jpeg",
+                "altValue": "bang_yedam_image"
+            },
+            "So Junghwan": {
+                "name": "So Junghwan",
+                "imagePath": "/images/junghwan.jpeg",
+                "altValue": "so_junghwan_image"
+            },
+            "Hamada Asahi": {
+                "name": "Hamada Asahi",
+                "imagePath": "/images/asahi.jpeg",
+                "altValue": "so_junghwan_image"
+            },
+            "Kanemoto Yoshinori": {
+                "name": "Kanemoto Yoshinori",
+                "imagePath": "/images/yoshi.jpeg",
+                "altValue": "kanemoto_yoshinori_image"
+            },
+            "Yoon Jaehyuk": {
+                "name": "Yoon Jaehyuk",
+                "imagePath": "/images/jaehyuk.jpeg",
+                "altValue": "yoon_jaehyuk_image"
+            },
+            "Kim Jun Kyu": {
+                "name": "Kim Jun Kyu",
+                "imagePath": "/images/junkyu.jpeg",
+                "altValue": "kim_jun_kyu_image"
+            },
+            "Park Ji Hoon": {
+                "name": "Park Ji Hoon",
+                "imagePath": "/images/jihoon.jpeg",
+                "altValue": "park_ji_hoon_image"
+            },
+            "Choi Hyun Suk": {
+                "name": "Choi Hyun Suk",
+                "imagePath": "/images/choi hyun suk.jpeg",
+                "altValue": "choi_hyun_suk_image"
+            },
+            "Watanabe Haruto": {
+                "name": "Watanabe Haruto",
+                "imagePath": "/images/haruto.jpeg",
+                "altValue": "watanabe_haruto_image"
+            }
+        },
+        "albums": {
+            "Going Crazy": {
+                "albumName": "Going Crazy",
+                "albumImagePath": "/images/going-crazy.jpg",
+                "altValue": "going_crazy_album_image"
+            },
+            "First Step": {
+                "albumName": "First Step",
+                "albumImagePath": "/images/first-step.jpg",
+                "altValue": "going_crazy_album_image"
+            },
+            "First Step Chapter Two": {
+                "albumName": "First Step Chapter Two",
+                "albumImagePath": "/images/first-step-chapter-two.jpg",
+                "altValue": "first_step_chapter_two_album_image"
+            },
+            "First Step Chapter Three": {
+                "albumName": "First Step Chapter Three",
+                "albumImagePath": "/images/first-step-chapter-three.png",
+                "altValue": "first_step_chapter_three_album_image"
+            },
+            "First Step Treasure Effect": {
+                "albumName": "First Step Treasure Effect",
+                "albumImagePath": "/images/first-step-treasure-effect.png",
+                "altValue": "first_step_treasure_effect_album_image"   
+            },
+            "Second Step": {
+                "albumName": "Second Step",
+                "albumImagePath": "/images/second-step.webp",
+                "altValue": "second_step_album_image"   
+            },
+            "Hello": {
+                "albumName": "Hello",
+                "albumImagePath": "/images/hello.jpg",
+                "altValue": "hello_album_image"
+            }
+        },
+        "singles": {
+            "Beautiful": {
+                "singleName": "Beautiful",
+                "singleImagePath": "/images/beautiful.png",
+                "singleAltValue": "beautiful_singles_image"
+            }
+        }
     }
 }
