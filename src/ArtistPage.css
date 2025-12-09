@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Scada&display=swap");
+
+#artist {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-color: #1A1A1A;
+}
+
+#artist-background {
+    background-color: #1A1A1A;
+    height: 100%;
+}
+
+#artist-title {
+    text-align: center;
+    font-size: 9vw;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+#artist-member-sub-title {
+    text-align: center;
+    font-size: 1vw;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 5%;
+}
+
+#artist-members-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+#members-content-card {
+    width: 480px;
+    height: 680px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+    background: white;
+}
+
+#members-image {
+    width: 480px;
+    height: 600px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+
+#artist-album-sub-title, #artists-singles-sub-title {
+    text-align: center;
+    font-size: 1vw;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 5%;
+}
+
+#artist-albums-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    /* padding-bottom: 10%; */
+}
+
+#album-content-card {
+    width: 570px;
+    height: 570px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+    background: white;
+}
+
+#album-image {
+    width: 570px;
+    height: 570px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+#artist-singles-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    padding-bottom: 10%;
+}
+
+#album-content-card:hover,
+#members-content-card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+#artist-members-gallery-container,
+#artist-albums-gallery-container {
+    font-size: 1.5em;
+    font-family: "Lexend";
+}
