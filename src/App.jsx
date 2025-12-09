@@ -17,6 +17,7 @@ import Cart from "./Cart";
 import Checkout from "./Checkout";
 import Thankyou from "./Thankyou";
 
+import Artist from "./Artist"
 function App() {
   const [cart, setCart] = useState([]);
 
@@ -43,12 +44,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<MainArtist />} />
-
-          <Route path="/AespaPage" element={<AespaPage />} />
-          <Route path="/LeSserafimPage" element={<LeSserafimPage />} />
-          <Route path="/SeventeenPage" element={<SeventeenPage />} />
-          <Route path="/TwicePage" element={<TwicePage />} />
-          <Route path="/TreasurePage" element={<TreasurePage />} />
+          <Route path="/Artist" element={<Artist />} />
           <Route
             path="/Cart"
             element={
