@@ -1,11 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import MainArtist from "./MainArtist";
-import LeSserafimPage from "./LeSserafimPage";
-import AespaPage from "./AespaPage";
-import SeventeenPage from "./SeventeenPage";
-import TwicePage from "./TwicePage";
-import TreasurePage from "./TreasurePage";
 import ContactUs from "./Contactus";
 import AboutUs from "./AboutUs";
 import Aespa from "./Aespa";
