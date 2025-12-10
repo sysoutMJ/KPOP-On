@@ -169,7 +169,7 @@
   font-size: 150%;
 }
 
-#main-artist-group-name-lesserafim {
+#main-artist-group-name {
   font-size: 50px;
   padding-top: 55%;
   font-family: "Work Sans", sans-serif;
@@ -249,7 +249,7 @@
     height: 250px;
     background-position: 50% 50%;
   }
-  #main-artist-group-name-lesserafim,
+  #main-artist-group-name,
   #main-artist-group-name-aespa,
   #main-artist-group-name-seventeen,
   #main-artist-group-name-twice,
