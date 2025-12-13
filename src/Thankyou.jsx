@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./Thankyou.css";
+import ThankYouImage from "./images/email-sent.png";
+
 const Thankyou = () => {
   return (
     <div id="thank-you-main-container">
@@ -11,7 +13,7 @@ const Thankyou = () => {
           Your order was completed succesfully.
         </div>
         <div id="thank-you-details">
-          <img src={require("./images/email-sent.png")} id="email-image"></img>
+          <img src={ThankYouImage} id="email-image"></img>
           <br />
           <br />
           An email with more details of your order has been sent to your email.
