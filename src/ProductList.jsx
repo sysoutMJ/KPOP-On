@@ -1,42 +1,37 @@
 import React, { Component } from 'react';
 import ProductRow from './ProductRow';
 import CartContext from '../context/CartContext';
+
+// This is from Chec/Commerce.js, an ecommerce API library
 import { commerce } from '../lib/Commerce';
 
-class ProductList extends Component {
-  constructor(props) {
-    super(props);
 
-    this.state = {
-      products: [],
-    }
+// Update this. This needs to be update in the newer way of how react does it.
+// It should not be in const ProdcutList = () => {}
 
-    this.handleAddProduct = this.handleAddProduct.bind(this);
-  }
+const tempProductList = () => {}
 
-  handleAddProduct(productId) {
-    this.context.addProductToCart(productId);
-  }
+const ProductList = () => {
+  const [products, setProducts] = useState([]);
+  const { addProductToCart } = useContext(CartContext);
 
-  componentDidMount() {
+  useEffect(() => {
     commerce.products.list().then((result) => {
-      this.setState({ products: result.data });
+      setProducts(result.data);
     });
-  }
+  }, []);
 
-  render() {
-    return (
-      <div className="container main-content">
-        {
-          this.state.products.map(product => {
-            return <ProductRow key={product.id} product={product} addProduct={this.handleAddProduct} />
-          })
-        }
-      </div>
-    );
-  }
-}
-
-ProductList.contextType = CartContext;
+  return (
+    <div className="container main-content">
+      {products.map(product => (
+        <ProductRow 
+          key={product.id}
+          product={product}
+          addProduct={addProductToCart}
+        />
+      ))}
+    </div>
+  );
+};
 
 export default ProductList;
