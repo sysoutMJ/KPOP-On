@@ -3,15 +3,6 @@ import { useState } from "react"
 import { useLocation } from "react-router-dom";
 import "./ArtistPage.css";
 import NavigationBar from "./NavigationBar";
-// export function ButtonClick(){
-//     const [this_is_my_button, setButtonClickCount] = usseState(0)
-
-//     return(
-//         <button onClick={() => setButtonClickCount(this_is_my_button + 1)}>
-//             Clicked count: {this_is_my_button}
-//         </button>
-//     )
-// }
 
 const AristHeadImageStyle = (groupBackgroundImage) => ({
   backgroundImage: `linear-gradient(
