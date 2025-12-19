@@ -1,0 +1,73 @@
+[
+    {
+    "id": 17,
+    "category": "Merch",
+    "title": "Official LightStick Ver.2",
+    "price": 36.23,
+    "img": "/images/21.jpg",
+    "amount": 1
+    },
+
+    {
+    "id": 18,
+    "category": "Merch",
+    "title": "Postcard Set",
+    "price": 18.58,
+    "img": "/images/24.png",
+    "amount": 1
+    },
+
+    {
+    "id": 19,
+    "category": "Merch",
+    "title": "Clear Photo Card Set",
+    "price": 16.72,
+    "img": "/images/22.png",
+    "amount": 1
+    },
+
+    {
+    "id": 20,
+    "category": "Merch",
+    "title": "Postcard Binder Book",
+    "price": 21.36,
+    "img": "/images/23.png",
+    "amount": 1
+    },
+
+    {
+    "id": 21,
+    "category": "Album",
+    "title": "4th Album Repackage SECTOR 17 COMPACT ver. (Random)",
+    "price": 9.56,
+    "img": "/images/18.png",
+    "amount": 1
+    },
+
+    {
+    "id": 22,
+    "category": "Album",
+    "title": "8th Mini Album Your Choice (Random)",
+    "price": 16.62,
+    "img": "/images/19.jpg",
+    "amount": 1
+    },
+
+    {
+    "id": 23,
+    "category": "Album",
+    "title": "4th Album Face the Sun KiT",
+    "price": 13.79,
+    "img": "/images/17.png",
+    "amount": 1
+    },
+
+    {
+    "id": 24,
+    "category": "Album",
+    "title": "9th Mini Album [Attacca] (Set)",
+    "price": 49.7,
+    "img": "/images/20.png",
+    "amount": 1
+    }
+]
