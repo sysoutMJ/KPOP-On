@@ -4,6 +4,8 @@ import { useLocation } from "react-router-dom";
 import "./ArtistPage.css";
 import NavigationBar from "./NavigationBar";
 
+import ArtistsContents from "./ArtistsContents.json"
+
 const AristHeadImageStyle = (groupBackgroundImage) => ({
   backgroundImage: `linear-gradient(
       to bottom,
