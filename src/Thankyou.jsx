@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./Thankyou.css";
-import ThankYouImage from "./images/email-sent.png";
+import ThankYouImage from "/images/email-sent.png";
 
 const Thankyou = () => {
   return (
