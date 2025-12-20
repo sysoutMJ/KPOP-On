@@ -17,7 +17,7 @@ const artistMap = {
     Twice
 };
 
-const Shop = () => {
+const Shop = ({cart, handleClick}) => {
  
     const { artistName } = useParams();
     const artistItems = artistMap[artistName] || [];
@@ -30,7 +30,7 @@ const Shop = () => {
         (item) => item.category === sideBarLinkName
         )
     );
-    };  
+    };      
 
     useEffect(() => {
         setItems(artistItems);
@@ -38,7 +38,7 @@ const Shop = () => {
     return (
         <>
         <div className="card-categ-container">
-            <Navbar/>
+            <Navbar size={cart.length}/>
 
             <div className="card-row">
             <div className="card-col">

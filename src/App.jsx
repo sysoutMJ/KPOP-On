@@ -3,14 +3,15 @@ import React, { useState, useEffect } from "react";
 import MainArtist from "./MainArtist";
 import ContactUs from "./Contactus";
 import AboutUs from "./AboutUs";
-import Aespa from "./Aespa";
-import Lesserafim from "./Lesserafim";
-import Seventeen from "./Seventeen";
-import Twice from "./Twice";
-import Treasure from "./Treasure";
+// import Aespa from "./Aespa";
+// import Lesserafim from "./Lesserafim";
+// import Seventeen from "./Seventeen";
+// import Twice from "./Twice";
+// import Treasure from "./Treasure";
 import Cart from "./Cart";
 import Checkout from "./Checkout";
 import Thankyou from "./Thankyou";
+import Shop from "./Shop";
 
 import Artist from "./Artist"
 
@@ -78,9 +79,9 @@ function App() {
       )
     );
   };
-  // useEffect(() => {
-  //   console.log("Use Effect Triggered ");
-  // }, [cart]);
+  useEffect(() => {
+    console.log("Cart Refreshed");
+  }, [cart]);
 
   return (
     <>
@@ -100,7 +101,7 @@ function App() {
           <Route path="/thankyou" element={<Thankyou />} />
 
           {/* for shops */}
-          <Route
+          {/* <Route
             path="/lesserafim"
             element={<Lesserafim cart={cart} handleClick={handleClick} />}
           />
@@ -115,11 +116,19 @@ function App() {
           <Route
             path="/twice"
             element={<Twice cart={cart} handleClick={handleClick} />}
+          /> */}
+          <Route
+            path="/shop"
+            element={<Shop  cart={cart} handleClick={handleClick}/>}
           />
           <Route
+            path="/shop/:artistName"
+            element={<Shop  cart={cart} handleClick={handleClick}/>}
+          />
+          {/* <Route
             path="/treasure"
             element={<Treasure cart={cart} handleClick={handleClick} />}
-          />
+          /> */}
         </Routes>
       </Router>
       {/* <Aespa /> */}

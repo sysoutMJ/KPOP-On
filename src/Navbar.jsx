@@ -10,6 +10,8 @@ import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
+import Artists from "./ArtistsContents.json";
+
 const Navbar = ({ size, setShow }) => {
   window.addEventListener("scroll", function () {
     const navbar = this.document.querySelector(".navbar");
@@ -25,21 +27,10 @@ const Navbar = ({ size, setShow }) => {
           className={Mobile ? "nav-link-mobile" : "nav-link"}
           onClick={() => setMobile(false)}
         >
-          <Link to="/aespa" className="aespa">
-            <li>Aespa</li>
-          </Link>
-          <Link to="/lesserafim" className="lesserafim">
-            <li>Le Sserafim</li>
-          </Link>
-          <Link to="/seventeen" className="seventeen">
-            <li>Seventeen</li>
-          </Link>
-          <Link to="/treasure" className="treasure">
-            <li>Treasure</li>
-          </Link>
-          <Link to="/twice" className="twice">
-            <li>Twice</li>
-          </Link>
+
+          {Object.keys(Artists).map((artistName) => (
+            <Link key={artistName} to={`/shop/${artistName}`} className="aespa">{artistName}</Link>
+          ))}
         </ul>
 
         <Link to="/Cart">

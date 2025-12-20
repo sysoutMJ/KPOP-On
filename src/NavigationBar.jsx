@@ -24,7 +24,7 @@ const NavigationBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/aespa" id="navigation-bar-navigation">
+            <Link to="/shop/Aespa" id="navigation-bar-navigation">
               Shop
             </Link>
           </li>
