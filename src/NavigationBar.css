@@ -10,12 +10,12 @@
 }
 
 #navigation-bar-background {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(230, 230, 230);
   height: 80px;
 }
 #navigation-bar-title {
   font-size: 2.5em;
-  color: white;
+  color: rgb(25, 25, 25);
   font-family: "Zen Dots", cursive;
   padding-left: 4%;
   line-height: 80px;
@@ -23,7 +23,7 @@
 #navigation-bar-navigation-choices {
   font-family: "Varela", sans-serif;
   font-size: 1.5em;
-  color: white;
+  color: rgb(25, 25, 25);
   list-style: none;
   white-space: nowrap;
   margin: 0;
@@ -48,7 +48,7 @@
 } */
 
 .navigation-bar-check-button {
-  color: white;
+  color: rgb(25, 25, 25);
   font-size: 1.5em;
   float: right;
   margin-top: 24px;
@@ -66,26 +66,8 @@
 }
 
 #navigation-bar-navigation:visited {
-  color: white;
+  color: rgb(25, 25, 25);
 }
-
-/* #navigation-bar-navigation:hover {
-  background-color: white;
-  color: black;
-  transition: 0.3s;
-} */
-
-/* mobile */
-/* @media (max-width: 952px) {
-  .navigation-bar-title {
-    font-size: 2.5em;
-    padding-left: 4%;
-  }
-
-  #navigation-bar-navigation-choices {
-    font-size: 1.5em;
-  }
-} */
 
 @media (max-width: 1758px) {
   .navigation-bar-check-button {
@@ -108,12 +90,6 @@
     margin-right: 0px;
   }
 
-  /* #navigation-bar-navigation-choices li:hover,
-  #navigation-bar-navigation-choices li:active {
-    background: white;
-    color: black;
-    transition: 0.6s;
-  } */
   #navigation-bar-checkbox:checked ~ #navigation-bar-navigation-choices {
     left: -5.5%;
   }
